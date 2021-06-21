@@ -65,7 +65,7 @@ h1 {
   height: 100vh;
   justify-content: center;
   align-items: center;
-  background-image: url(/Sans-titre---3.jpg);
+  background-image: url(/images/bg_first_slide.jpg);
   background-size: contain;
 }
 
@@ -358,6 +358,7 @@ footer p {
   color: white;
   font-family: "helvetica";
   margin-bottom: 0;
+  margin-right: 1rem;
 }
 
 footer {
@@ -369,8 +370,9 @@ footer {
   height: 5vh;
 }
 
-footer p {
-  margin-right: 1rem;
+footer a {
+  text-decoration: none;
+  color : white;
 }
 
 /* ----------------------------------------------------------------------------------------- RESPONSIVE*/
