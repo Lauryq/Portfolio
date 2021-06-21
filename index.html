@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Laury Quarto - Portfolio</title>
+</head>
+<body>
+   <header>
+       <!-- BARRE DE NAVIGATION -->
+        <nav class="navbar navbar-expand-lg navbar-light nav">
+            <div class="container-fluid">
+                <h1><a class="navbar-brand nav_name" href="#">Laury Quarto</a></h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon menu"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active networks" aria-current="page" href="https://github.com/Lauryq" target="_blank"><i class="fab fa-github"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link networks" href="https://www.linkedin.com/in/laury-quarto-7b9676210/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text_padding js-scroll" aria-current="page" href="#profil">Profil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text_padding js-scroll" href="#competences">Compétences</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text_padding js-scroll" href="#projets">Projets</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- EN-TETE -->
+        <div class="first_strip mouse_anim">
+            <div class="titre_header">
+                <!-- <svg id="two" class="barre" viewBox="0 0 1181 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path class="yellow_line"
+                        d="M0 42.9117L51.5837 8.16884C51.5837 8.16884 99.095 0.568842 106.697 0.0259848C114.027 -0.516872 390.95 7.62599 404.525 7.62599C418.1 7.62599 453.122 6.26884 458.552 6.8117C464.253 7.62598 545.701 2.19742 545.701 2.19742C545.701 2.19742 638.552 10.0688 661.357 8.71169C684.163 7.62598 803.348 11.9688 803.348 11.9688C803.348 11.9688 1007.78 15.4974 1026.52 15.7688C1045.25 15.7688 1107.42 17.6688 1111.76 16.8545C1115.84 15.7688 1164.71 29.3403 1172.85 29.3403C1181 29.3403 1183.71 29.6117 1172.85 32.326C1161.99 34.7688 1132.13 34.7688 1123.98 34.7688C1115.84 34.7688 1055.02 40.1974 1051.49 42.9117C1047.96 45.626 1034.39 42.9117 1022.17 42.9117C1009.95 42.9117 844.344 40.1974 830.769 40.1974C817.195 40.1974 817.195 42.9117 779.185 42.9117C741.176 42.9117 556.29 41.0117 545.701 41.826C534.842 42.9117 479.185 45.3545 463.71 43.9974C447.964 42.9117 442.534 40.1974 426.244 40.1974C409.955 40.1974 349.683 46.9831 332.308 46.4403C314.932 45.8974 206.606 47.2546 171.041 46.4403C135.475 45.626 69.2308 40.7403 49.6833 44.5403C29.8642 48.3403 0 42.9117 0 42.9117Z"
+                        fill="#FADE01" />
+                </svg> -->
+                <svg id="one" class="title_laury" width="764" height="133" viewBox="0 0 764 133" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M64.68 69.44C63.42 98.28 46.34 98.42 23.8 98.28H18.76V15.12C18.76 5.04 21.7 2.66001 27.72 2.66001V1.26H0V2.66001C6.02 2.66001 7.7 5.74 7.7 14.28V83.86C7.7 93.38 7.14 98.28 1.12 98.28V99.82H66.08V69.44H64.68Z"
+                        fill="none" stroke="black" />
+                    <path
+                        d="M118.552 64.68V86.38C117.012 89.74 113.372 95.9 104.692 95.9C96.4316 95.9 92.6516 90.02 92.6516 84C92.6516 74.9 101.052 68.88 118.552 64.68ZM134.652 95.48C128.492 95.48 128.632 87.08 128.632 87.08V61.88C128.632 45.22 124.852 33.88 111.132 33.88C111.132 33.88 104.412 33.6 98.5316 36.54C91.1116 40.6 88.4516 44.94 87.6116 46.9C86.7716 48.72 87.0516 51.1 88.4516 52.92C90.4116 55.58 94.0516 55.86 96.4316 53.9C98.9516 51.8 99.5116 48.16 97.4116 45.64C96.4316 44.38 95.0316 43.82 93.6316 43.54C92.7916 43.4 93.7716 40.46 99.7916 37.66C111.692 32.34 118.552 40.88 118.552 55.3V63.14C94.8916 69.3 82.9916 73.22 82.9916 86.52C82.9916 101.08 98.8116 101.08 98.8116 101.08C108.612 101.08 116.592 96.04 118.552 89.04C118.972 101.5 129.332 101.08 129.332 101.08C135.912 101.08 139.692 95.9 140.532 91.7L139.132 91.14C138.152 95.48 134.652 95.48 134.652 95.48Z"
+                        fill="none" stroke="black" />
+                    <path
+                        d="M210.226 97.3C204.346 96.6 203.086 95.48 203.086 88.76V33.88L186.846 36.4V37.94C193.566 38.08 193.426 38.64 193.426 47.18V84.14C191.326 90.16 186.286 95.76 177.886 95.76C169.766 95.76 162.066 91.56 162.066 79.66V33.88L144.846 36.4V37.94C152.686 37.94 152.686 38.5 152.686 47.88V80.08C152.686 97.86 164.166 101.08 173.826 101.08C183.486 101.08 191.466 94.64 193.426 87.5V99.12C193.426 99.12 193.426 101.64 196.646 100.94L210.226 98.7V97.3Z"
+                        fill="none" stroke="black" />
+                    <path
+                        d="M251.243 34.16C244.383 34.16 235.283 39.62 231.223 47.88V33.88L214.563 37.1V38.5C220.443 39.2 221.563 41.3 221.563 46.06V88.9C221.563 96.04 221.283 96.74 215.963 98.28V99.82H236.963V98.28C231.923 97.02 231.223 96.6 231.223 88.9V50.96C235.283 41.16 246.483 36.82 245.783 39.62C245.363 41.16 245.643 42.84 246.483 44.24C248.583 47.32 252.643 48.16 255.583 46.2C258.663 44.24 259.503 40.32 257.543 37.24C256.003 35.14 253.483 34.16 251.243 34.16Z"
+                        fill="none" stroke="black" />
+                    <path
+                        d="M304.854 35.14V36.54C321.094 36.4 312.554 58.94 312.554 58.94L302.334 87.64L283.714 47.6C283.714 47.6 278.254 36.54 288.194 36.54V35.14H261.174V36.54C263.414 36.82 268.594 37.66 271.674 44.52C271.674 44.52 276.854 54.88 297.714 100.1L290.854 119.56C289.034 124.46 286.234 126.84 285.674 124.74C285.254 123.2 284.134 121.66 282.454 120.96C279.374 119.56 275.734 120.96 274.194 124.18C272.934 127.26 274.194 130.9 277.414 132.44C279.654 133.42 282.874 132.86 284.554 131.6C286.234 130.2 289.734 127.26 292.254 119.84L314.094 59.22C321.794 38.22 325.854 36.54 331.734 36.54V35.14H304.854Z"
+                        fill="none" stroke="black" />
+                    <path
+                        d="M449.536 51.24C449.536 89.74 434.276 99.54 417.756 99.54C401.096 99.54 385.696 89.74 385.696 51.24C385.696 12.88 401.096 1.54 417.756 1.54C434.276 1.54 449.536 12.88 449.536 51.24ZM461.856 51.24C461.856 23.52 448.556 0 417.756 0C386.956 0 373.656 23.52 373.656 51.24C373.656 79.1 386.956 101.08 417.756 101.08C448.556 101.08 461.856 79.1 461.856 51.24ZM422.376 111.58C422.376 111.58 399.416 101.92 381.356 116.76L382.756 118.02C386.116 115.78 396.476 111.3 404.596 114.52L414.816 119C437.076 128.94 444.216 131.04 454.856 123.06L463.256 116.48L462.136 115.36C458.356 118.16 452.476 122.08 442.116 118.72L422.376 111.58Z"
+                        fill="none" stroke="black" />
+                    <path
+                        d="M537.394 97.3C531.514 96.6 530.254 95.48 530.254 88.76V33.88L514.014 36.4V37.94C520.734 38.08 520.594 38.64 520.594 47.18V84.14C518.494 90.16 513.454 95.76 505.054 95.76C496.934 95.76 489.234 91.56 489.234 79.66V33.88L472.014 36.4V37.94C479.854 37.94 479.854 38.5 479.854 47.88V80.08C479.854 97.86 491.334 101.08 500.994 101.08C510.654 101.08 518.634 94.64 520.594 87.5V99.12C520.594 99.12 520.594 101.64 523.814 100.94L537.394 98.7V97.3Z"
+                        fill="none" stroke="black" />
+                    <path
+                        d="M581.071 64.68V86.38C579.531 89.74 575.891 95.9 567.211 95.9C558.951 95.9 555.171 90.02 555.171 84C555.171 74.9 563.571 68.88 581.071 64.68ZM597.171 95.48C591.011 95.48 591.151 87.08 591.151 87.08V61.88C591.151 45.22 587.371 33.88 573.651 33.88C573.651 33.88 566.931 33.6 561.051 36.54C553.631 40.6 550.971 44.94 550.131 46.9C549.291 48.72 549.571 51.1 550.971 52.92C552.931 55.58 556.571 55.86 558.951 53.9C561.471 51.8 562.031 48.16 559.931 45.64C558.951 44.38 557.551 43.82 556.151 43.54C555.311 43.4 556.291 40.46 562.311 37.66C574.211 32.34 581.071 40.88 581.071 55.3V63.14C557.411 69.3 545.511 73.22 545.511 86.52C545.511 101.08 561.331 101.08 561.331 101.08C571.131 101.08 579.111 96.04 581.071 89.04C581.491 101.5 591.851 101.08 591.851 101.08C598.431 101.08 602.211 95.9 603.051 91.7L601.651 91.14C600.671 95.48 597.171 95.48 597.171 95.48Z"
+                        fill="none" stroke="black" />
+                    <path
+                        d="M643.626 34.16C636.766 34.16 627.666 39.62 623.606 47.88V33.88L606.946 37.1V38.5C612.826 39.2 613.946 41.3 613.946 46.06V88.9C613.946 96.04 613.666 96.74 608.346 98.28V99.82H629.346V98.28C624.306 97.02 623.606 96.6 623.606 88.9V50.96C627.666 41.16 638.866 36.82 638.166 39.62C637.746 41.16 638.026 42.84 638.866 44.24C640.966 47.32 645.026 48.16 647.966 46.2C651.046 44.24 651.886 40.32 649.926 37.24C648.386 35.14 645.866 34.16 643.626 34.16Z"
+                        fill="none" stroke="black" />
+                    <path
+                        d="M690.657 89.32C689.537 92.68 686.177 95.76 682.117 95.76C675.677 95.76 671.337 91.98 671.337 79.24V36.68H687.577L687.857 35.14H671.337V13.3L661.677 14.56V35.14H654.397L654.677 36.68H661.677V79.66C661.677 96.6 667.837 101.08 677.497 101.08C684.917 101.08 690.237 95.76 691.777 89.88L690.657 89.32Z"
+                        fill="none" stroke="black" />
+                    <path
+                        d="M751.676 67.48C751.676 92.82 742.296 99.54 731.236 99.54C720.176 99.54 710.656 92.82 710.656 67.48C710.656 42.14 720.176 35.42 731.236 35.42C742.296 35.42 751.676 42.14 751.676 67.48ZM763.016 67.48C763.016 49 752.656 33.88 731.236 33.88C709.956 33.88 699.456 49 699.456 67.48C699.456 85.82 709.956 101.08 731.236 101.08C752.656 101.08 763.016 85.82 763.016 67.48Z"
+                        fill="none" stroke="black"/>
+                </svg>
+                <h3 class="subtitle">DÉVELOPPEUSE WEB | WEB MOBILE</h3>
+            </div>
+        </div>
+   </header>
+   <main>
+       <!-- PROFIL -->
+       <section class="second_strip" id="profil">
+            <h2><span class="underline">Pro</span>fil</h2>
+            <img data-aos="fade-left" src="images/photo.png" width="300" height="270" alt="photographie de moi même en noir et blanc">
+            <p data-aos="fade-right">Bonjour !</p>
+            <p data-aos="fade-right" class="description">Je m’appelle Laury Quarto, actuellement en formation à l’Access Code School de Besançon. Voici un aperçu de mes compétences acquises et projets réalisés jusqu’à maintenant.</p>
+            <div data-aos="fade-right" class="btn">
+                <a href="cv_laury_quarto.pdf" download>
+                    <p>Télécharger mon CV</p>
+                </a>
+            </div>
+        </div>
+       </section>
+       <!-- COMPETENCES -->
+       <section class="third_strip" id="competences">
+           <h2>Com<span class="underline">péte</span>nces</h2>
+           <!-- HTML5 -->
+            <div class="comp " data-aos="fade-up">
+                <div class="shadow">
+                    <svg>
+                        <circle class="html" cx="50px" cy="50px" r="50px"></circle>
+                    </svg>
+                </div>
+                <p class="percent">75%</p>
+                <p>HTML5</p>
+            </div>
+            
+            <!-- CSS3 -->
+            <div class="comp" data-aos="fade-up">
+                <div class="shadow">
+                    <svg>
+                        <circle class="css" cx="50px" cy="50px" r="50px"></circle>
+                    </svg>
+                </div>
+                <p class="percent">65%</p>
+                <p>CSS3</p>
+            </div>
+            <!-- JAVASCRIPT -->
+            <div class="comp" data-aos="fade-up">
+                <div class="shadow">
+                    <svg>
+                        <circle class="js_ai" cx="50px" cy="50px" r="50px"></circle>
+                    </svg>
+                </div>
+                <p class="percent">25%</p>
+                <p>JAVASCRIPT</p>
+            </div>
+            <!-- PHP -->
+            <div class="comp" data-aos="fade-up">
+                <div class="shadow">
+                    <svg>
+                        <circle class="php_sql" cx="50px" cy="50px" r="50px"></circle>
+                    </svg>
+                </div>
+                <p class="percent">15%</p>
+                <p>PHP</p>
+            </div>
+            <!-- PHOTOSHOP CS6 -->
+            <div class="comp" data-aos="fade-up">
+                <div class="shadow">
+                    <svg>
+                        <circle class="psd_git" cx="50px" cy="50px" r="50px"></circle>
+                    </svg>
+                </div>
+                <p class="percent">40%</p>
+                <p>PHOTOSHOP CS6</p>
+            </div>
+            <!-- SQL -->
+            <div class="comp" data-aos="fade-up">
+                <div class="shadow">
+                    <svg>
+                        <circle class="php_sql" cx="50px" cy="50px" r="50px"></circle>
+                    </svg>
+                </div>
+                <p class="percent">15%</p>
+                <p>SQL</p>
+            </div>
+            <!-- GIT -->
+            <div class="comp" data-aos="fade-up">
+                <div class="shadow">
+                    <svg>
+                        <circle class="psd_git" cx="50px" cy="50px" r="50px"></circle>
+                    </svg>
+                </div>
+                <p class="percent">40%</p>
+                <p>GIT</p>
+            </div>
+            <!-- ILLUSTRATOR CS6 -->
+            <div class="comp" data-aos="fade-up">
+                <div class="shadow">
+                    <svg>
+                        <circle class="js_ai" cx="50px" cy="50px" r="50px"></circle>
+                    </svg>
+                </div>
+                <p class="percent">25%</p>
+                <p>ILLUSTRATOR CS6</p>
+            </div>
+       </section>
+       <!-- PROJETS -->
+       <section class="fourth_strip" id="projets">
+            <h2>Pr<span class="underline">oje</span>ts</h2>
+            <article id="list_prj">
+            <!-- card accessibilité -->
+            <div class="card" style="width: 18rem;">
+                <img src="/images/projet_accessibilite.jpg" class="card-img-top" alt="capture d'écran d'un projet sur l'accessibilité dans le numérique">
+                <div class="card-body text_card">
+                    <h5 class="card-title">Projet Accessibilité</h5>
+                    <p class="card-text">
+                        Site exposant les différents problèmes et solutions liés au domaine de l'accessibilité.
+                    </p>
+                    <button class="btn_card" type="button" class="btn btn-primary btn_modal" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        En savoir plus
+                    </button>
+                    
+                    <!-- Modal access -->
+                    <div class="modal fade shadow_body" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Projet Accessibilité</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body modal_aff">
+                                    <div class="part_left">
+                                        <h3>Techno utilisées</h3>
+                                        <ul>
+                                            <li>HTML</li>
+                                            <li>CSS</li>                                 
+                                        </ul>
+                                    </div>
+                                    <div class="part_right">
+                                        <h3>Infos Projet</h3>
+                                        <p>Site réalisé dans le cadre de l'Acces Code School.</p>
+                                    </div>
+                                    <button type="button">Visiter le site</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- card widget -->
+            <div class="card" style="width: 18rem;">
+                <img src="/images/projet_widgets.jpg" class="card-img-top" alt="capture d'écran d'un projet sur l'intégration de différents widgets">
+                <div class="card-body text_card">
+                    <h5 class="card-title">Projet Widgets</h5>
+                    <p class="card-text">
+                        Site disposant de différents widgets (météo, calculatrice, fête du jour et convertisseur).
+                    </p>
+                    <button class="btn_card" type="button" class="btn btn-primary btn_modal" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                        En savoir plus
+                    </button>
+                    
+                    <!-- Modal widget -->
+                    <div class="modal fade shadow_body" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Projet Widgets</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body modal_aff">
+                                    <div class="part_left">
+                                        <h3>Techno utilisées</h3>
+                                        <ul>
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>JS</li>
+                                            <li>API météo</li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="part_right">
+                                        <h3>Infos Projet</h3>
+                                        <p>Projet réalisé dans le cadre de l'Access Code School. Première utilisation API.</p>
+                                    </div>
+                                    <button type="button">Visiter le site</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </article>
+       </section>
+   </main>
+   
+  
+   <footer>
+        <p>© Laury QUARTO - Tous droits réservés</p>
+   </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true
+        })
+    </script>
+    <script src="script.js"></script>
+  
+
+</body>
+</html>
