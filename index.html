@@ -4,11 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- CSS perso -->
     <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <!-- CSS AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./images/header_mini_svg/header_carre_black.svg" />
     <title>Laury Quarto - Portfolio</title>
 </head>
 <body>
@@ -17,97 +23,102 @@
         <nav class="navbar navbar-expand-lg navbar-light nav">
             <div class="container-fluid">
                 <h1><a class="navbar-brand nav_name" href="#">Laury Quarto</a></h1>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler box_menu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon menu"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link active networks" aria-current="page" href="https://github.com/Lauryq" target="_blank"><i class="fab fa-github"></i></a>
+                            <a class="nav-link networks" aria-current="page" href="https://github.com/Lauryq" target="_blank"><i class="fab fa-github"></i></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link networks" href="https://www.linkedin.com/in/laury-quarto-7b9676210/" target="_blank"><i class="fab fa-linkedin"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text_padding js-scroll" aria-current="page" href="#profil">Profil</a>
+                            <a class="nav-link effect-underline" aria-current="page" href="#profil">Profil</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text_padding js-scroll" href="#competences">Compétences</a>
+                            <a class="nav-link effect-underline" href="#competences">Compétences</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text_padding js-scroll" href="#projets">Projets</a>
+                            <a class="nav-link effect-underline" href="#projets">Projets</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link effect-underline" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
+
     <main>
         <!-- EN-TETE -->
         <section class="first_strip mouse_anim header">
             <div class="titre_header">
-                <svg id="one" class="title_laury" width="764" height="133" viewBox="0 0 764 133" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="1181" height="133" viewBox="0 0 1181 133" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
                     <path
-                        d="M64.68 69.44C63.42 98.28 46.34 98.42 23.8 98.28H18.76V15.12C18.76 5.04 21.7 2.66001 27.72 2.66001V1.26H0V2.66001C6.02 2.66001 7.7 5.74 7.7 14.28V83.86C7.7 93.38 7.14 98.28 1.12 98.28V99.82H66.08V69.44H64.68Z"
-                        fill="none" stroke="black" />
-                    <path
-                        d="M118.552 64.68V86.38C117.012 89.74 113.372 95.9 104.692 95.9C96.4316 95.9 92.6516 90.02 92.6516 84C92.6516 74.9 101.052 68.88 118.552 64.68ZM134.652 95.48C128.492 95.48 128.632 87.08 128.632 87.08V61.88C128.632 45.22 124.852 33.88 111.132 33.88C111.132 33.88 104.412 33.6 98.5316 36.54C91.1116 40.6 88.4516 44.94 87.6116 46.9C86.7716 48.72 87.0516 51.1 88.4516 52.92C90.4116 55.58 94.0516 55.86 96.4316 53.9C98.9516 51.8 99.5116 48.16 97.4116 45.64C96.4316 44.38 95.0316 43.82 93.6316 43.54C92.7916 43.4 93.7716 40.46 99.7916 37.66C111.692 32.34 118.552 40.88 118.552 55.3V63.14C94.8916 69.3 82.9916 73.22 82.9916 86.52C82.9916 101.08 98.8116 101.08 98.8116 101.08C108.612 101.08 116.592 96.04 118.552 89.04C118.972 101.5 129.332 101.08 129.332 101.08C135.912 101.08 139.692 95.9 140.532 91.7L139.132 91.14C138.152 95.48 134.652 95.48 134.652 95.48Z"
-                        fill="none" stroke="black" />
-                    <path
-                        d="M210.226 97.3C204.346 96.6 203.086 95.48 203.086 88.76V33.88L186.846 36.4V37.94C193.566 38.08 193.426 38.64 193.426 47.18V84.14C191.326 90.16 186.286 95.76 177.886 95.76C169.766 95.76 162.066 91.56 162.066 79.66V33.88L144.846 36.4V37.94C152.686 37.94 152.686 38.5 152.686 47.88V80.08C152.686 97.86 164.166 101.08 173.826 101.08C183.486 101.08 191.466 94.64 193.426 87.5V99.12C193.426 99.12 193.426 101.64 196.646 100.94L210.226 98.7V97.3Z"
-                        fill="none" stroke="black" />
-                    <path
-                        d="M251.243 34.16C244.383 34.16 235.283 39.62 231.223 47.88V33.88L214.563 37.1V38.5C220.443 39.2 221.563 41.3 221.563 46.06V88.9C221.563 96.04 221.283 96.74 215.963 98.28V99.82H236.963V98.28C231.923 97.02 231.223 96.6 231.223 88.9V50.96C235.283 41.16 246.483 36.82 245.783 39.62C245.363 41.16 245.643 42.84 246.483 44.24C248.583 47.32 252.643 48.16 255.583 46.2C258.663 44.24 259.503 40.32 257.543 37.24C256.003 35.14 253.483 34.16 251.243 34.16Z"
-                        fill="none" stroke="black" />
-                    <path
-                        d="M304.854 35.14V36.54C321.094 36.4 312.554 58.94 312.554 58.94L302.334 87.64L283.714 47.6C283.714 47.6 278.254 36.54 288.194 36.54V35.14H261.174V36.54C263.414 36.82 268.594 37.66 271.674 44.52C271.674 44.52 276.854 54.88 297.714 100.1L290.854 119.56C289.034 124.46 286.234 126.84 285.674 124.74C285.254 123.2 284.134 121.66 282.454 120.96C279.374 119.56 275.734 120.96 274.194 124.18C272.934 127.26 274.194 130.9 277.414 132.44C279.654 133.42 282.874 132.86 284.554 131.6C286.234 130.2 289.734 127.26 292.254 119.84L314.094 59.22C321.794 38.22 325.854 36.54 331.734 36.54V35.14H304.854Z"
-                        fill="none" stroke="black" />
-                    <path
-                        d="M449.536 51.24C449.536 89.74 434.276 99.54 417.756 99.54C401.096 99.54 385.696 89.74 385.696 51.24C385.696 12.88 401.096 1.54 417.756 1.54C434.276 1.54 449.536 12.88 449.536 51.24ZM461.856 51.24C461.856 23.52 448.556 0 417.756 0C386.956 0 373.656 23.52 373.656 51.24C373.656 79.1 386.956 101.08 417.756 101.08C448.556 101.08 461.856 79.1 461.856 51.24ZM422.376 111.58C422.376 111.58 399.416 101.92 381.356 116.76L382.756 118.02C386.116 115.78 396.476 111.3 404.596 114.52L414.816 119C437.076 128.94 444.216 131.04 454.856 123.06L463.256 116.48L462.136 115.36C458.356 118.16 452.476 122.08 442.116 118.72L422.376 111.58Z"
-                        fill="none" stroke="black" />
-                    <path
-                        d="M537.394 97.3C531.514 96.6 530.254 95.48 530.254 88.76V33.88L514.014 36.4V37.94C520.734 38.08 520.594 38.64 520.594 47.18V84.14C518.494 90.16 513.454 95.76 505.054 95.76C496.934 95.76 489.234 91.56 489.234 79.66V33.88L472.014 36.4V37.94C479.854 37.94 479.854 38.5 479.854 47.88V80.08C479.854 97.86 491.334 101.08 500.994 101.08C510.654 101.08 518.634 94.64 520.594 87.5V99.12C520.594 99.12 520.594 101.64 523.814 100.94L537.394 98.7V97.3Z"
-                        fill="none" stroke="black" />
-                    <path
-                        d="M581.071 64.68V86.38C579.531 89.74 575.891 95.9 567.211 95.9C558.951 95.9 555.171 90.02 555.171 84C555.171 74.9 563.571 68.88 581.071 64.68ZM597.171 95.48C591.011 95.48 591.151 87.08 591.151 87.08V61.88C591.151 45.22 587.371 33.88 573.651 33.88C573.651 33.88 566.931 33.6 561.051 36.54C553.631 40.6 550.971 44.94 550.131 46.9C549.291 48.72 549.571 51.1 550.971 52.92C552.931 55.58 556.571 55.86 558.951 53.9C561.471 51.8 562.031 48.16 559.931 45.64C558.951 44.38 557.551 43.82 556.151 43.54C555.311 43.4 556.291 40.46 562.311 37.66C574.211 32.34 581.071 40.88 581.071 55.3V63.14C557.411 69.3 545.511 73.22 545.511 86.52C545.511 101.08 561.331 101.08 561.331 101.08C571.131 101.08 579.111 96.04 581.071 89.04C581.491 101.5 591.851 101.08 591.851 101.08C598.431 101.08 602.211 95.9 603.051 91.7L601.651 91.14C600.671 95.48 597.171 95.48 597.171 95.48Z"
-                        fill="none" stroke="black" />
-                    <path
-                        d="M643.626 34.16C636.766 34.16 627.666 39.62 623.606 47.88V33.88L606.946 37.1V38.5C612.826 39.2 613.946 41.3 613.946 46.06V88.9C613.946 96.04 613.666 96.74 608.346 98.28V99.82H629.346V98.28C624.306 97.02 623.606 96.6 623.606 88.9V50.96C627.666 41.16 638.866 36.82 638.166 39.62C637.746 41.16 638.026 42.84 638.866 44.24C640.966 47.32 645.026 48.16 647.966 46.2C651.046 44.24 651.886 40.32 649.926 37.24C648.386 35.14 645.866 34.16 643.626 34.16Z"
-                        fill="none" stroke="black" />
-                    <path
-                        d="M690.657 89.32C689.537 92.68 686.177 95.76 682.117 95.76C675.677 95.76 671.337 91.98 671.337 79.24V36.68H687.577L687.857 35.14H671.337V13.3L661.677 14.56V35.14H654.397L654.677 36.68H661.677V79.66C661.677 96.6 667.837 101.08 677.497 101.08C684.917 101.08 690.237 95.76 691.777 89.88L690.657 89.32Z"
-                        fill="none" stroke="black" />
-                    <path
-                        d="M751.676 67.48C751.676 92.82 742.296 99.54 731.236 99.54C720.176 99.54 710.656 92.82 710.656 67.48C710.656 42.14 720.176 35.42 731.236 35.42C742.296 35.42 751.676 42.14 751.676 67.48ZM763.016 67.48C763.016 49 752.656 33.88 731.236 33.88C709.956 33.88 699.456 49 699.456 67.48C699.456 85.82 709.956 101.08 731.236 101.08C752.656 101.08 763.016 85.82 763.016 67.48Z"
-                        fill="none" stroke="black"/>
+                        d="M274.68 69.44C273.42 98.28 256.34 98.42 233.8 98.28H228.76V15.12C228.76 5.04 231.7 2.66001 237.72 2.66001V1.26H210V2.66001C216.02 2.66001 217.7 5.74 217.7 14.28V83.86C217.7 93.38 217.14 98.28 211.12 98.28V99.82H276.08V69.44H274.68Z"
+                         fill="#fade0199" />
+                    <path class="svg_title"
+                        d="M328.552 64.68V86.38C327.012 89.74 323.372 95.9 314.692 95.9C306.432 95.9 302.652 90.02 302.652 84C302.652 74.9 311.052 68.88 328.552 64.68ZM344.652 95.48C338.492 95.48 338.632 87.08 338.632 87.08V61.88C338.632 45.22 334.852 33.88 321.132 33.88C321.132 33.88 314.412 33.6 308.532 36.54C301.112 40.6 298.452 44.94 297.612 46.9C296.772 48.72 297.052 51.1 298.452 52.92C300.412 55.58 304.052 55.86 306.432 53.9C308.952 51.8 309.512 48.16 307.412 45.64C306.432 44.38 305.032 43.82 303.632 43.54C302.792 43.4 303.772 40.46 309.792 37.66C321.692 32.34 328.552 40.88 328.552 55.3V63.14C304.892 69.3 292.992 73.22 292.992 86.52C292.992 101.08 308.812 101.08 308.812 101.08C318.612 101.08 326.592 96.04 328.552 89.04C328.972 101.5 339.332 101.08 339.332 101.08C345.912 101.08 349.692 95.9 350.532 91.7L349.132 91.14C348.152 95.48 344.652 95.48 344.652 95.48Z"
+                        fill="none" stroke="#c4c4c4" />
+                    <path class="svg_title"
+                        d="M420.226 97.3C414.346 96.6 413.086 95.48 413.086 88.76V33.88L396.846 36.4V37.94C403.566 38.08 403.426 38.64 403.426 47.18V84.14C401.326 90.16 396.286 95.76 387.886 95.76C379.766 95.76 372.066 91.56 372.066 79.66V33.88L354.846 36.4V37.94C362.686 37.94 362.686 38.5 362.686 47.88V80.08C362.686 97.86 374.166 101.08 383.826 101.08C393.486 101.08 401.466 94.64 403.426 87.5V99.12C403.426 99.12 403.426 101.64 406.646 100.94L420.226 98.7V97.3Z"
+                        fill="none" stroke="#c4c4c4" />
+                    <path class="svg_title"
+                        d="M461.243 34.16C454.383 34.16 445.283 39.62 441.223 47.88V33.88L424.563 37.1V38.5C430.443 39.2 431.563 41.3 431.563 46.06V88.9C431.563 96.04 431.283 96.74 425.963 98.28V99.82H446.963V98.28C441.923 97.02 441.223 96.6 441.223 88.9V50.96C445.283 41.16 456.483 36.82 455.783 39.62C455.363 41.16 455.643 42.84 456.483 44.24C458.583 47.32 462.643 48.16 465.583 46.2C468.663 44.24 469.503 40.32 467.543 37.24C466.003 35.14 463.483 34.16 461.243 34.16Z"
+                        fill="none" stroke="#c4c4c4" />
+                    <path class="svg_title"
+                        d="M514.854 35.14V36.54C531.094 36.4 522.554 58.94 522.554 58.94L512.334 87.64L493.714 47.6C493.714 47.6 488.254 36.54 498.194 36.54V35.14H471.174V36.54C473.414 36.82 478.594 37.66 481.674 44.52C481.674 44.52 486.854 54.88 507.714 100.1L500.854 119.56C499.034 124.46 496.234 126.84 495.674 124.74C495.254 123.2 494.134 121.66 492.454 120.96C489.374 119.56 485.734 120.96 484.194 124.18C482.934 127.26 484.194 130.9 487.414 132.44C489.654 133.42 492.874 132.86 494.554 131.6C496.234 130.2 499.734 127.26 502.254 119.84L524.094 59.22C531.794 38.22 535.854 36.54 541.734 36.54V35.14H514.854Z"
+                        fill="none" stroke="#c4c4c4" />
+                    <path class="svg_title"
+                        d="M659.536 51.24C659.536 89.74 644.276 99.54 627.756 99.54C611.096 99.54 595.696 89.74 595.696 51.24C595.696 12.88 611.096 1.54 627.756 1.54C644.276 1.54 659.536 12.88 659.536 51.24ZM671.856 51.24C671.856 23.52 658.556 0 627.756 0C596.956 0 583.656 23.52 583.656 51.24C583.656 79.1 596.956 101.08 627.756 101.08C658.556 101.08 671.856 79.1 671.856 51.24ZM632.376 111.58C632.376 111.58 609.416 101.92 591.356 116.76L592.756 118.02C596.116 115.78 606.476 111.3 614.596 114.52L624.816 119C647.076 128.94 654.216 131.04 664.856 123.06L673.256 116.48L672.136 115.36C668.356 118.16 662.476 122.08 652.116 118.72L632.376 111.58Z"
+                        fill="none" stroke="#c4c4c4" />
+                    <path class="svg_title"
+                        d="M747.394 97.3C741.514 96.6 740.254 95.48 740.254 88.76V33.88L724.014 36.4V37.94C730.734 38.08 730.594 38.64 730.594 47.18V84.14C728.494 90.16 723.454 95.76 715.054 95.76C706.934 95.76 699.234 91.56 699.234 79.66V33.88L682.014 36.4V37.94C689.854 37.94 689.854 38.5 689.854 47.88V80.08C689.854 97.86 701.334 101.08 710.994 101.08C720.654 101.08 728.634 94.64 730.594 87.5V99.12C730.594 99.12 730.594 101.64 733.814 100.94L747.394 98.7V97.3Z"
+                        fill="none" stroke="#c4c4c4" />
+                    <path class="svg_title"
+                        d="M791.071 64.68V86.38C789.531 89.74 785.891 95.9 777.211 95.9C768.951 95.9 765.171 90.02 765.171 84C765.171 74.9 773.571 68.88 791.071 64.68ZM807.171 95.48C801.011 95.48 801.151 87.08 801.151 87.08V61.88C801.151 45.22 797.371 33.88 783.651 33.88C783.651 33.88 776.931 33.6 771.051 36.54C763.631 40.6 760.971 44.94 760.131 46.9C759.291 48.72 759.571 51.1 760.971 52.92C762.931 55.58 766.571 55.86 768.951 53.9C771.471 51.8 772.031 48.16 769.931 45.64C768.951 44.38 767.551 43.82 766.151 43.54C765.311 43.4 766.291 40.46 772.311 37.66C784.211 32.34 791.071 40.88 791.071 55.3V63.14C767.411 69.3 755.511 73.22 755.511 86.52C755.511 101.08 771.331 101.08 771.331 101.08C781.131 101.08 789.111 96.04 791.071 89.04C791.491 101.5 801.851 101.08 801.851 101.08C808.431 101.08 812.211 95.9 813.051 91.7L811.651 91.14C810.671 95.48 807.171 95.48 807.171 95.48Z"
+                        fill="none" stroke="#c4c4c4" />
+                    <path class="svg_title"
+                        d="M853.626 34.16C846.766 34.16 837.666 39.62 833.606 47.88V33.88L816.946 37.1V38.5C822.826 39.2 823.946 41.3 823.946 46.06V88.9C823.946 96.04 823.666 96.74 818.346 98.28V99.82H839.346V98.28C834.306 97.02 833.606 96.6 833.606 88.9V50.96C837.666 41.16 848.866 36.82 848.166 39.62C847.746 41.16 848.026 42.84 848.866 44.24C850.966 47.32 855.026 48.16 857.966 46.2C861.046 44.24 861.886 40.32 859.926 37.24C858.386 35.14 855.866 34.16 853.626 34.16Z"
+                        fill="none" stroke="#c4c4c4" />
+                    <path class="svg_title"
+                        d="M900.657 89.32C899.537 92.68 896.177 95.76 892.117 95.76C885.677 95.76 881.337 91.98 881.337 79.24V36.68H897.577L897.857 35.14H881.337V13.3L871.677 14.56V35.14H864.397L864.677 36.68H871.677V79.66C871.677 96.6 877.837 101.08 887.497 101.08C894.917 101.08 900.237 95.76 901.777 89.88L900.657 89.32Z"
+                        fill="none" stroke="#c4c4c4" />
+                    <path class="svg_title"
+                        d="M961.676 67.48C961.676 92.82 952.296 99.54 941.236 99.54C930.176 99.54 920.656 92.82 920.656 67.48C920.656 42.14 930.176 35.42 941.236 35.42C952.296 35.42 961.676 42.14 961.676 67.48ZM973.016 67.48C973.016 49 962.656 33.88 941.236 33.88C919.956 33.88 909.456 49 909.456 67.48C909.456 85.82 919.956 101.08 941.236 101.08C962.656 101.08 973.016 85.82 973.016 67.48Z"
+                        fill="none" stroke="#c4c4c4" />
                 </svg>
-                <h3 class="subtitle">DÉVELOPPEUSE WEB | WEB MOBILE</h3>
+                <h3 class="subtitle">DÉVELOPPEUSE WEB <span>|</span> WEB MOBILE</h3>
             </div>
         </section>
        <!-- PROFIL -->
-       <section class="second_strip" id="profil">
+        <section class="second_strip" id="profil">
             <h2><span class="underline">Pro</span>fil</h2>
-            <img data-aos="fade-left" src="images/photo.png" width="300" height="270" alt="photographie de moi même en noir et blanc">
-            <p data-aos="fade-right">Bonjour !</p>
-            <p data-aos="fade-right" class="description">Je m’appelle Laury Quarto, actuellement en formation à l’Access Code School de Besançon. Voici un aperçu de mes compétences acquises et projets réalisés jusqu’à maintenant.</p>
-            <div data-aos="fade-right" class="btn">
+            <img data-aos="fade-up" src="images/photo_cv.png" width="300" height="270" alt="photographie de moi même en noir et blanc">
+            <p data-aos="fade-up">Bonjour !</p>
+            <p data-aos="fade-up" class="description">Je m’appelle Laury Quarto, actuellement en formation à l’Access Code School de Besançon. Voici un aperçu de mes compétences acquises et projets réalisés jusqu’à maintenant.</p>
+            <div data-aos="fade-up" class="btn">
                 <a href="cv_laury_quarto.pdf" download>
                     <p>Télécharger mon CV</p>
                 </a>
             </div>
-       </section>
+        </section>
        <!-- COMPETENCES -->
-       <section class="third_strip" id="competences">
+        <section class="third_strip" id="competences">
            <h2>Com<span class="underline">péte</span>nces</h2>
            <!-- HTML5 -->
-            <div class="comp " data-aos="fade-up" id="cerclehtml">
+            <div class="comp " data-aos="fade-up">
                 <div class="shadow">
                     <svg>
                         <circle class="html" cx="50px" cy="50px" r="50px"></circle>
+                        <circle cx="50px" cy="50px" r="50px" stroke="black"></circle>
                     </svg>
                 </div>
                 <p class="percent">75%</p>
-                <p>HTML5</p>
+                <p  id="cerclehtml">HTML5</p>
             </div>
             
             <!-- CSS3 -->
@@ -124,7 +135,7 @@
             <div class="comp" data-aos="fade-up">
                 <div class="shadow">
                     <svg>
-                        <circle class="js_ai" cx="50px" cy="50px" r="50px"></circle>
+                        <circle class="js_ai_psd_sql_php" cx="50px" cy="50px" r="50px"></circle>
                     </svg>
                 </div>
                 <p class="percent">25%</p>
@@ -134,37 +145,37 @@
             <div class="comp" data-aos="fade-up">
                 <div class="shadow">
                     <svg>
-                        <circle class="php_sql" cx="50px" cy="50px" r="50px"></circle>
+                        <circle class="js_ai_psd_sql_php" cx="50px" cy="50px" r="50px"></circle>
                     </svg>
                 </div>
-                <p class="percent">15%</p>
+                <p class="percent">25%</p>
                 <p>PHP</p>
             </div>
             <!-- PHOTOSHOP CS6 -->
             <div class="comp" data-aos="fade-up">
                 <div class="shadow">
                     <svg>
-                        <circle class="psd_git" cx="50px" cy="50px" r="50px"></circle>
+                        <circle class="js_ai_psd_sql_php" cx="50px" cy="50px" r="50px"></circle>
                     </svg>
                 </div>
-                <p class="percent">40%</p>
+                <p class="percent">25%</p>
                 <p>PHOTOSHOP CS6</p>
             </div>
             <!-- SQL -->
             <div class="comp" data-aos="fade-up">
                 <div class="shadow">
                     <svg>
-                        <circle class="php_sql" cx="50px" cy="50px" r="50px"></circle>
+                        <circle class="js_ai_psd_sql_php" cx="50px" cy="50px" r="50px"></circle>
                     </svg>
                 </div>
-                <p class="percent">15%</p>
+                <p class="percent">25%</p>
                 <p>SQL</p>
             </div>
             <!-- GIT -->
             <div class="comp" data-aos="fade-up">
                 <div class="shadow">
                     <svg>
-                        <circle class="psd_git" cx="50px" cy="50px" r="50px"></circle>
+                        <circle class="git" cx="50px" cy="50px" r="50px"></circle>
                     </svg>
                 </div>
                 <p class="percent">40%</p>
@@ -174,119 +185,241 @@
             <div class="comp" data-aos="fade-up">
                 <div class="shadow">
                     <svg>
-                        <circle class="js_ai" cx="50px" cy="50px" r="50px"></circle>
+                        <circle class="js_ai_psd_sql_php" cx="50px" cy="50px" r="50px"></circle>
                     </svg>
                 </div>
                 <p class="percent">25%</p>
                 <p>ILLUSTRATOR CS6</p>
             </div>
-       </section>
+        </section>
        <!-- PROJETS -->
-       <section class="fourth_strip" id="projets">
+        <section class="fourth_strip" id="projets">
             <h2>Pr<span class="underline">oje</span>ts</h2>
             <article id="list_prj">
             <!-- card accessibilité -->
-            <div class="card" style="width: 18rem;">
-                <img src="/images/projet_accessibilite.jpg" class="card-img-top" alt="capture d'écran d'un projet sur l'accessibilité dans le numérique">
-                <div class="card-body text_card">
-                    <h5 class="card-title">Projet Accessibilité</h5>
-                    <p class="card-text">
-                        Site exposant les différents problèmes et solutions liés au domaine de l'accessibilité.
-                    </p>
-                    <button class="btn_card" type="button" class="btn btn-primary btn_modal" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                        En savoir plus
-                    </button>
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/screen_data.png" class="card-img-top" alt="capture d'écran d'un projet utilisant une opendata">
+                    <div class="card-body text_card">
+                        <h5 class="card-title">LangagesDashboard</h5>
+                        <p class="card-text">
+                            <!-- Site exposant les différents problèmes et solutions liés au domaine de l'accessibilité.
+                        </p> -->
+                        <button id="btn_card1" type="button" class="btn btn-primary btn_modal" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            En savoir plus
+                        </button>
                     
                     <!-- Modal access -->
-                    <div class="modal fade shadow_body" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-centered">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Projet Accessibilité</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body modal_aff">
-                                    <div class="part_left">
-                                        <h3>Techno utilisées</h3>
-                                        <ul>
-                                            <li>HTML</li>
-                                            <li>CSS</li>                                 
-                                        </ul>
+                        <div class="modal fade shadow_body" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal_pop modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header header_modal">
+                                        <h5 class="modal-title" id="exampleModalLabel">Projet Accessibilité</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
-                                    <div class="part_right">
-                                        <h3>Infos Projet</h3>
-                                        <p>Site réalisé dans le cadre de l'Acces Code School.</p>
+                                    <div class="modal_img">
+                                        <img src="images/mockup_data.png">
                                     </div>
-                                    <button type="button">Visiter le site</button>
+                                    <div class="modal-body modal_aff">
+                                        <div class="part_left">
+                                            <h3>Technos utilisées</h3>
+                                            <ul>
+                                                <li>HTML5</li>
+                                                <li>CSS3</li>
+                                                <li>Figma</li>
+                                                <li>JS ES6</li>
+                                                <li>PHP7</li>
+                                                <li>PhpMyAdmin</li>
+                                                <li>Git</li>                                
+                                            </ul>
+                                        </div>
+                                        <div class="part_right">
+                                            <h3>Infos Projet</h3>
+                                            <p>Site réalisé dans le cadre de l'Acces Code School.<br>
+                                                Sujet : Réaliser un site utilisant un jeu de données opensource. <br> En utilisant :
+                                                <ul>
+                                                    <li>POO</li>
+                                                    <li>Twig</li>
+                                                    <li>MVC</li>
+                                                    <li>Webpack</li>
+                                                </ul>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <!-- LIEN POUR SITE EN LIGNE -->
+                                    <!-- <a class="link_website">
+                                        <button class="btn_visit">Visiter le site</button>
+                                    </a> -->
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
             <!-- card widget -->
-            <div class="card" style="width: 18rem;">
-                <img src="/images/projet_widgets.jpg" class="card-img-top" alt="capture d'écran d'un projet sur l'intégration de différents widgets">
-                <div class="card-body text_card">
-                    <h5 class="card-title">Projet Widgets</h5>
-                    <p class="card-text">
-                        Site disposant de différents widgets (météo, calculatrice, fête du jour et convertisseur).
-                    </p>
-                    <button class="btn_card" type="button" class="btn btn-primary btn_modal" data-bs-toggle="modal" data-bs-target="#exampleModal2">
-                        En savoir plus
-                    </button>
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/projet_widgets.jpg" class="card-img-top" alt="capture d'écran d'un projet sur l'intégration de différents widgets">
+                    <div class="card-body text_card">
+                        <h5 class="card-title">Widgets</h5>
+                        <!-- <p class="card-text">
+                            Site disposant de différents widgets (météo, calculatrice, fête du jour et convertisseur).
+                        </p> -->
+                        <button id="btn_card2" type="button" class="btn btn-primary btn_modal" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                            En savoir plus
+                        </button>
                     
                     <!-- Modal widget -->
-                    <div class="modal fade shadow_body" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog modal-dialog-centered">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Projet Widgets</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body modal_aff">
-                                    <div class="part_left">
-                                        <h3>Techno utilisées</h3>
-                                        <ul>
-                                            <li>HTML</li>
-                                            <li>CSS</li>
-                                            <li>JS</li>
-                                            <li>API météo</li>
-
-                                        </ul>
+                        <div class="modal fade shadow_body" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog modal-dialog-centered modal_pop modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header header_modal">
+                                        <h5 class="modal-title" id="exampleModalLabel">Projet Widgets</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
-                                    <div class="part_right">
-                                        <h3>Infos Projet</h3>
-                                        <p>Projet réalisé dans le cadre de l'Access Code School. Première utilisation API.</p>
+                                    <div class="modal_img">
+                                        <img src="images/mockup_widgets.png">
                                     </div>
-                                    <button type="button">Visiter le site</button>
+                                    <div class="modal-body modal_aff">
+                                        <div class="part_left">
+                                            <h3>Technos utilisées</h3>
+                                            <ul>
+                                                <li>HTML5</li>
+                                                <li>CSS3</li>
+                                                <li>JS ES6</li>
+                                                <li>API Météo</li>
+                                            </ul>
+                                        </div>
+                                        <div class="part_right">
+                                            <h3>Infos Projet</h3>
+                                            <p>Projet réalisé dans le cadre de l'Access Code School. <br>
+                                                Sujet : Réaliser un site disposant de différents widgets (météo, calculatrice, fête du jour et convertisseur).<br>
+                                                Première utilisation API.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <!-- LIEN POUR SITE EN LIGNE -->
+                                    <!-- <a href="https://lauryq.promo-66.codeur.online/widgets/" target="_blank" class="link_website" >
+                                        <button class="btn_visit">Visiter le site</button>
+                                    </a> -->
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+                <!-- card films -->
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/projet_films.png" class="card-img-top"
+                        alt="capture c'écran d'un projet sur le thème des films">
+                    <div class="card-body text_card">
+                        <h5 class="card-title">CinéPopcorn</h5>
+                        <!-- <p class="card-text">
+                            Site proposant une liste de films et les informations qui les concernes.
+                        </p> -->
+                        <button id="btn_card2" type="button" class="btn btn-primary btn_modal" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal3">
+                            En savoir plus
+                        </button>
+                
+                        <!-- Modal films -->
+                        <div class="modal fade shadow_body" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog modal-dialog-centered modal_pop modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header header_modal">
+                                        <h5 class="modal-title" id="exampleModalLabel">Projet Widgets</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal_img">
+                                        <img src="images/mockup_films.png">
+                                    </div>
+                                    <div class="modal-body modal_aff">
+                                        <div class="part_left">
+                                            <h3>Technos utilisées</h3>
+                                            <ul>
+                                                <li>HTML5</li>
+                                                <li>CSS3</li>
+                                                <li>JS ES6</li>
+                                                <li>PHP7</li>
+                                                <li>Figma</li>
+                                                <li>PhpMyAdmin</li>
+                                                <li>Git</li>
+                                            </ul>
+                                        </div>
+                                        <div class="part_right">
+                                            <h3>Infos Projet</h3>
+                                            <p>Projet réalisé dans le cadre de l'Access Code School.<br>
+                                                Site proposant une liste de films et les informations qui les concernes.<br>
+                                                Première mise en pratique du MVC.<br>
+                                                En ligne prochainement...
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <!-- LIEN POUR SITE EN LIGNE -->
+                                    <!-- <a href="https://lauryq.promo-66.codeur.online/widgets/" target="_blank" class="link_website" >
+                                                        <button class="btn_visit">Visiter le site</button>
+                                                    </a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </article>
-       </section>
+        </section>
+        <!-- FORM CONTACT -->
+        <section class="fifth_strip" id="contact">
+
+            <!-- titre formulaire -->
+            <h2>Co<span class="underline">nta</span>ct</h2>
+    
+                <!-- Formulaire -->
+                <form method="POST">
+                    <input type="text" name="nom" placeholder="Nom*" class="input_name" title="Utilisez des lettres seulement"/>
+                    <input type="email" name="mail" placeholder="Email*" class="input_mail"/>
+                    <input type="text" name="subject" placeholder="Sujet*" class="input_subject"/>
+                    <textarea name="message" placeholder="Message*" class="message"></textarea>
+                    <button name="btn" type="submit" id="btn">Envoyer <span class="arrow"><i class="far fa-paper-plane"></i></span></button>
+                    <div class="form_validation"></div>
+                    <p class="form_legend">* champs obligatoires</p>
+                </form>
+
+        </section>
+
+
    </main>
    
-  
    <footer>
         <p>© <a href="https://github.com/Lauryq" target="_blank">Laury QUARTO</a> - Tous droits réservés</p>
    </footer>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+    <!-- script animation VantaJS -->
+    <script src="p5.min.js"></script>
+    <script src="vanta.trunk.min.js"></script>
+    <script>
+        VANTA.TRUNK({
+            el: ".first_strip",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 100.00,
+            minWidth: 100.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            color: 0x5f5f5f,
+            backgroundColor: 0x141414,
+            spacing: 1.00,
+            chaos: 1.50,
+        })
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-        crossorigin="anonymous"></script>
+   <!-- script Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <!-- script bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+   <!-- script AOS --> 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init({
             once: true
         })
     </script>
+    <!-- script perso -->
     <script src="script.js"></script>
   
 
